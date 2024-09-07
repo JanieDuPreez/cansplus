@@ -12,4 +12,4 @@ CANS+ is a high-order accuracy MHD (Magnetohydrodynamics) code developed from CA
 
 Following the structure of CANS, the system is divided into a common engine and specific physical problems, with libraries linked in such a way that the common engine can be utilized by each problem.
 
-_Note: This has been translated using translation software. Translation errors mights occur._
+_Note: This has been translated using translation software. Translation errors might occur._
