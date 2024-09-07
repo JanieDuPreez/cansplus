@@ -1,4 +1,4 @@
-# CANS+ (English Translation)#
+# CANS+ (English Translation) #
 
 CANS+ is a high-order accuracy MHD (Magnetohydrodynamics) code developed from CANS (Coordinated Astronomical Numerical Software, [development homepage](http://www-space.eps.s.u-tokyo.ac.jp/~yokoyama/etc/cans/)). Its features include:
 
