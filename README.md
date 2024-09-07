@@ -1,15 +1,15 @@
-# CANS+ #
+# CANS+ (English Translation)#
 
-CANS+は、CANS (Coordinated Astronomical Numeical Software、[開発HP](http://www-space.eps.s.u-tokyo.ac.jp/~yokoyama/etc/cans/)) から発展した、高次精度MHDコードです。特徴として、
+CANS+ is a high-order accuracy MHD (Magnetohydrodynamics) code developed from CANS (Coordinated Astronomical Numerical Software, [development homepage](http://www-space.eps.s.u-tokyo.ac.jp/~yokoyama/etc/cans/)). Its features include:
 
-* HLLD／HLL近似リーマン解法を用いた有限体積法
-* MP5法を用いた高次補間（5次精度） 
-* 9 wave法を用いたdivBクリーニング
-* カーテシアン／円筒座標系
-* 非一様メッシュサイズ
-* MPIによる３次元領域分割化
-* IDLによる読み込み・可視化ルーチンの整備
+* Finite volume method using HLLD/HLL approximate Riemann solvers
+* High-order interpolation (5th-order accuracy) using the MP5 method
+* DivB cleaning using the 9-wave method
+* Cartesian/Cylindrical coordinate systems
+* Non-uniform mesh sizes
+* 3D domain decomposition with MPI
+* IDL-based loading and visualization routines
 
-が挙げられます。
+Following the structure of CANS, the system is divided into a common engine and specific physical problems, with libraries linked in such a way that the common engine can be utilized by each problem.
 
-構成はCANSに倣って、共通エンジン部分と物理課題に分けて、ライブラリをリンクする形で、共通エンジンを各課題から利用します。
+_Note: This has been translated using translation software. Translation errors mights occur._
